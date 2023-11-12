@@ -12,12 +12,12 @@ font-family: "Raleway", sans-serif;
 }
 
 
-.logo {
+.logo-title {
     color: NAVY-BLUE, #2E2F42;
-    font-family: Raleway;
+    font-family: Raleway,sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     
     
@@ -26,7 +26,7 @@ font-family: "Raleway", sans-serif;
 
 .logo-link {
     color: IRIS, #4D5AE5;
-    font-family: Raleway;
+    font-family: Raleway,sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.16;
@@ -35,11 +35,7 @@ font-family: "Raleway", sans-serif;
 
 }
 
- .logo-title {
-     color: #2e2f42;
- }
-
-.menu {
+.menu-link {
     color: NAVY-BLUE, #2E2F42;
     font-family: Roboto;
     font-size: 16px;
@@ -92,7 +88,7 @@ font-family: "Raleway", sans-serif;
       cursor: pointer;
   }
 
-.menu-advantages 
+
    
 
 
@@ -167,8 +163,8 @@ flex-shrink: 0;
 }
 
 
-.menu-link:hover,
-.menu-link:focus {
+.menu:hover,
+.menu:focus {
     color: #404bbf;
     padding-bottom: 0px;
     justify-content: center;
