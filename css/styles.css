@@ -1,7 +1,17 @@
 
 body {
-    font-family: roboto;
+    font-family:Roboto, sans-serif;
+    color:#434455;
+    background:#FFFFFF
+    
 }
+
+
+.head-page {
+font-family: "Raleway", sans-serif;
+}
+
+
 .logo {
     color: NAVY-BLUE, #2E2F42;
     font-family: Raleway;
@@ -9,13 +19,19 @@ body {
     font-weight: 700;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
+    
     
 }
 
 
-.span {
-color:IRIS, #4D5AE5;
+.logo span {
+    color: IRIS, #4D5AE5;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .menu {
@@ -57,13 +73,8 @@ color:IRIS, #4D5AE5;
 }
 
 .main-button {
-    border-radius: 4px;
+
     background: IRIS, #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    display: inline-flex;
-    padding: 16px 32px;
-    align-items: flex-start;
-    gap: 10px;
     color: WHITE, #FFF;
     font-family: Roboto;
     font-size: 16px;
@@ -77,12 +88,9 @@ color:IRIS, #4D5AE5;
       cursor: pointer;
   }
 
-.menu-advantages {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-}
+.menu-advantages 
+   
+
 
 .menu-advantages-item {
     color: NAVY-BLUE, #2E2F42;
@@ -116,16 +124,7 @@ flex-shrink: 0;
 }
 
 
-.logo span {
-    color: IRIS, #4D5AE5;
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
+
 
 .job-title {
     color: SLATE, #434455;
@@ -173,7 +172,6 @@ flex-shrink: 0;
     display: flex;
     padding-bottom: 0px;
     justify-content: center;
-    align-items: center;
     flex-shrink: 0;
 }
 
@@ -191,7 +189,7 @@ flex-shrink: 0;
     letter-spacing: 0.02em;
 }
 
-.menu-contact-link {
+.contact {
     color: SLATE, #434455;
     font-family: Roboto;
     font-size: 16px;
@@ -200,3 +198,9 @@ flex-shrink: 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+.last.page {
+    background-color:#2E2F42;
+}
+
+.
