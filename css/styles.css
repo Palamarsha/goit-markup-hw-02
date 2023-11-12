@@ -24,7 +24,7 @@ font-family: "Raleway", sans-serif;
 }
 
 
-.logo span {
+.logo-link {
     color: IRIS, #4D5AE5;
     font-family: Raleway;
     font-size: 18px;
@@ -32,7 +32,12 @@ font-family: "Raleway", sans-serif;
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
 }
+
+ .logo-title {
+     color: #2e2f42;
+ }
 
 .menu {
     color: NAVY-BLUE, #2E2F42;
@@ -102,7 +107,7 @@ font-family: "Raleway", sans-serif;
    
 }
 
-.menu-link, .menu-contact-link, .logo {
+.menu-link, .menu-contact-link, .logo-link {
     text-decoration: none;
 }
 
