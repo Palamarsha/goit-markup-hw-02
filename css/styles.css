@@ -51,22 +51,9 @@ color:IRIS, #4D5AE5;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    width: 496px;
     background: NAVY-BLUE, #2E2F42;
 
-    .main-page {
-        color: var(--NAVY-BLUE, #2E2F42);
-            text-align: center;
-        
-            /* Header 3 */
-            font-family: Roboto;
-            font-size: 20px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 24px;
-            /* 120% */
-            letter-spacing: 0.4px;
-    }
+    
 }
 
 .main-button {
@@ -92,7 +79,6 @@ color:IRIS, #4D5AE5;
 
 .menu-advantages {
     display: flex;
-    width: 264px;
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
@@ -106,7 +92,7 @@ color:IRIS, #4D5AE5;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.06;
-    width: 264px;
+   
 }
 
 .menu-link, .menu-contact-link, .logo {
@@ -115,8 +101,6 @@ color:IRIS, #4D5AE5;
 
 .team-list {
 background: CLOUD, #F4F4FD;
-width: 1440px;
-height: 732px;
 flex-shrink: 0;
 }
 
@@ -166,7 +150,6 @@ flex-shrink: 0;
     text-transform: capitalize;
 }
 
-}
 
 .presents-cards-text {
     border: 1px solid CORNFLOWER, #E7E9FC;
@@ -188,8 +171,6 @@ flex-shrink: 0;
 .menu-link:focus {
     color: #404bbf;
     display: flex;
-    width: 66px;
-    height: 52px;
     padding-bottom: 0px;
     justify-content: center;
     align-items: center;
