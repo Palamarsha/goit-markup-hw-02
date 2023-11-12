@@ -61,7 +61,6 @@ font-family: "Raleway", sans-serif;
 
 .main-text {
     color: WHITE, #FFF;
-    text-align: center;
     font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
@@ -114,7 +113,6 @@ flex-shrink: 0;
 
 .team-names {
     color:NAVY-BLUE, #2E2F42;
-    text-align: center;
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
@@ -128,7 +126,6 @@ flex-shrink: 0;
 
 .job-title {
     color: SLATE, #434455;
-    text-align: center;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -139,7 +136,6 @@ flex-shrink: 0;
 
 .team-list-item {
     color: NAVY-BLUE, #2E2F42;
-    text-align: center;
     font-family: Roboto;
     font-size: 36px;
     font-style: normal;
@@ -169,7 +165,6 @@ flex-shrink: 0;
 .menu-link:hover,
 .menu-link:focus {
     color: #404bbf;
-    display: flex;
     padding-bottom: 0px;
     justify-content: center;
     flex-shrink: 0;
