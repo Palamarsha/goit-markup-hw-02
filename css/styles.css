@@ -1,0 +1,231 @@
+
+body {
+    font-family: roboto;
+}
+.logo {
+    color: NAVY-BLUE, #2E2F42;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+}
+
+
+.span {
+color:IRIS, #4D5AE5;
+}
+
+.menu {
+    color: NAVY-BLUE, #2E2F42;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+}
+
+.menu, .menu-contact, .team-cards, .presents-cards {
+    list-style-type: none;
+}
+
+.menu-contact {
+    color:SLATE, #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.main-text {
+    color: WHITE, #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    width: 496px;
+    background: NAVY-BLUE, #2E2F42;
+
+    .main-page {
+        color: var(--NAVY-BLUE, #2E2F42);
+            text-align: center;
+        
+            /* Header 3 */
+            font-family: Roboto;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            /* 120% */
+            letter-spacing: 0.4px;
+    }
+}
+
+.main-button {
+    border-radius: 4px;
+    background: IRIS, #4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    color: WHITE, #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+ button {
+      cursor: pointer;
+  }
+
+.menu-advantages {
+    display: flex;
+    width: 264px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.menu-advantages-item {
+    color: NAVY-BLUE, #2E2F42;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.06;
+    width: 264px;
+}
+
+.menu-link, .menu-contact-link, .logo {
+    text-decoration: none;
+}
+
+.team-list {
+background: CLOUD, #F4F4FD;
+width: 1440px;
+height: 732px;
+flex-shrink: 0;
+}
+
+.team-names {
+    color:NAVY-BLUE, #2E2F42;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+
+.logo span {
+    color: IRIS, #4D5AE5;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.job-title {
+    color: SLATE, #434455;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing:0.02em;
+}
+
+.team-list-item {
+    color: NAVY-BLUE, #2E2F42;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.team-card {
+    display: inline-flex;
+    padding-bottom: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    border-radius: 0px 0px 4px 4px;
+    background: var(--WHITE, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.presents-cards-text {
+    border: 1px solid CORNFLOWER, #E7E9FC;
+    background: var(--WHITE, #FFF);
+}
+
+.secondary-text {
+    color: SLATE, #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #404bbf;
+    display: flex;
+    width: 66px;
+    height: 52px;
+    padding-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+
+
+
+.menu-contact-link:hover,
+.menu-contact-link:focus {
+    color: OCEAN, #404BBF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.menu-contact-link {
+    color: SLATE, #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
