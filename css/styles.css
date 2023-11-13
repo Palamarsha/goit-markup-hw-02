@@ -116,7 +116,6 @@ font-family: "Raleway", sans-serif;
 
 .main-button {
 
-    
     color: #FFF;
     font-family: Roboto,sans-serif;
     font-size: 16px;
@@ -127,14 +126,14 @@ font-family: "Raleway", sans-serif;
 }
 
 .main-button {
-    border-radius: 4px;
+    
     background: #4D5AE5;
    
 }
 
 .main-button:hover,
 .main-button:focus{
-    border-radius: 4px;
+  
     background: #404BBF;
    
 }
@@ -181,7 +180,7 @@ flex-shrink: 0;
 }
 
 .team-names {
-    color:NAVY-BLUE, #2E2F42;
+    color:#2E2F42;
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
@@ -194,7 +193,7 @@ flex-shrink: 0;
 
 
 .job-title {
-    color: SLATE, #434455;
+    color: #434455;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
