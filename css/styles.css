@@ -220,10 +220,22 @@ flex-shrink: 0;
     text-transform: capitalize;
 }
 
+.top-text{
+    color: #2E2F42;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02;
+     text-transform: capitalize;
+}
+
 
 .presents-cards-text {
     border: 1px solid CORNFLOWER, #E7E9FC;
-    background: var(--WHITE, #FFF);
+    background: #FFF;
 }
 
 .secondary-text {
