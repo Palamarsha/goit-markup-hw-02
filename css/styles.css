@@ -57,12 +57,32 @@ font-family: "Raleway", sans-serif;
 }
 
 .menu-contact {
-    color:SLATE, #434455;
+    color:#434455;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.menu-contact-link{
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.menu-contact-link:hover {
+    color:#404BBF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+     font-weight: 400;
+    line-height: 21.5;
     letter-spacing: 0.02em;
 }
 
