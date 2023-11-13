@@ -118,7 +118,7 @@ font-family: "Raleway", sans-serif;
 
     
     color: #FFF;
-    font-family: Roboto;
+    font-family: Roboto,sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -129,6 +129,13 @@ font-family: "Raleway", sans-serif;
 .main-button {
     border-radius: 4px;
     background: #4D5AE5;
+   
+}
+
+.main-button:hover,
+.main-button:focus{
+    border-radius: 4px;
+    background: #404BBF;
    
 }
         
