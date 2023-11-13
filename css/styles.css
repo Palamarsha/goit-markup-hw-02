@@ -98,19 +98,20 @@ font-family: "Raleway", sans-serif;
     letter-spacing: 0.02em;
 }
 
-
+.main-page{
+    background:  #2E2F42;
+}
 
 
 .main-text {
-    color: WHITE, #FFF;
+    color: #FFF;
+    text-align: center;
     font-family: Roboto;
     font-size: 56px;
+    font-style: normal;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    background: NAVY-BLUE, #2E2F42;
-
-    
 }
 
 .main-button {
