@@ -1,6 +1,6 @@
 
 body {
-    font-family:Roboto, sans-serif;
+    font-family: Roboto, sans-serif;
     color:#434455;
     background:#FFFFFF
     
@@ -52,6 +52,17 @@ font-family: "Raleway", sans-serif;
 
 }
 
+.menu-link:hover,
+.menu-link:focus{
+    color: #404BBF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 .menu, .menu-contact, .team-cards, .presents-cards {
     list-style-type: none;
 }
@@ -76,15 +87,19 @@ font-family: "Raleway", sans-serif;
     letter-spacing: 0.02em;
 }
 
-.menu-contact-link:hover {
+.menu-contact-link:hover,
+.menu-contact-link:focus  {
     color:#404BBF;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
-     font-weight: 400;
+    font-weight: 400;
     line-height: 21.5;
     letter-spacing: 0.02em;
 }
+
+
+
 
 .main-text {
     color: WHITE, #FFF;
