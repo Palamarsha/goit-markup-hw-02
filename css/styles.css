@@ -7,11 +7,66 @@ body {
 }
 
 
-.head-page {
-font-family: "Raleway", sans-serif;
+h1,
+h2,
+h3,
+h4,
+p{
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 
+ul;
+ol{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+
+img{
+    display: block ;
+}
+
+
+
+.menu{
+
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    box-sizing: border-box;
+    column-gap: 40px;
+}
+
+
+.head-navigation{
+    display: flex;
+    align-items: center;
+}
+
+
+.menu-contact{
+    display: flex;
+    column-gap: 40px;
+}
+
+
+.head-page {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 156px;
+    padding-right: 156px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    justify-content: space-between;
+    width: 1440px;
+    align-items: center;
+   
+
+
+}
 
 
 .logo-link {
@@ -22,6 +77,7 @@ font-family: "Raleway", sans-serif;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px ;
 
 }
 
@@ -30,6 +86,20 @@ font-family: "Raleway", sans-serif;
     line-height: 1.17;
 
 }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
 
 .menu-link:hover {
     color: #404BBF;
@@ -63,7 +133,7 @@ font-family: "Raleway", sans-serif;
     letter-spacing: 0.02em;
 }
 
-.menu, .menu-contact, .team-cards, .presents-cards {
+.menu, .menu-contact, .team-cards, .presents-cards, .top-advantages {
     list-style-type: none;
 }
 
@@ -100,6 +170,13 @@ font-family: "Raleway", sans-serif;
 
 .main-page{
     background:  #2E2F42;
+   
+    height: 600px;
+    padding-bottom: 60px;
+  
+   
+   
+
 }
 
 
@@ -112,17 +189,48 @@ font-family: "Raleway", sans-serif;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    width: 496px;
+    margin-bottom: 48px;
+    margin-left: 472px;
+    padding-top: 188px;
+  
+  
 }
+
+
+ .main-button .text {
+     width: 105px;
+     height: 24px;
+     
+
+ }
 
 .main-button {
 
     color: #FFF;
     font-family: Roboto,sans-serif;
     font-size: 16px;
+    width: 169px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    padding-top: 16px;
+        padding-bottom: 16px;
+        padding-left: 32px;
+        padding-right: 32px;
+        margin-top: 48px;
+        margin-right: 635px;
+        margin-left: 636px;
+        display: flex;
+        align-items: flex-start;
+        column-gap: 10px;
+       
+ 
+
+    
+   
+   
 }
 
 .main-button {
@@ -146,6 +254,17 @@ font-family: "Raleway", sans-serif;
   }
 
 
+ .top-advantages{
+    display: flex;
+   padding-top: 60px;
+   column-gap: 24px;
+   margin-left: 156px;
+   margin-right: 156px;
+   margin-bottom: 120px;
+   
+
+ }
+
    
 
 
@@ -158,6 +277,12 @@ font-family: "Raleway", sans-serif;
     line-height: 1.2;
     letter-spacing:0.02em;
    
+}
+
+
+.menu-advantages{
+    width: 264px;
+    
 }
 
 .text-menu-advantages{
@@ -187,6 +312,7 @@ flex-shrink: 0;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-top: 32px;
 }
 
 
@@ -200,10 +326,26 @@ flex-shrink: 0;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing:0.02em;
+   margin-top: 8px;
+   margin-bottom: 32px;
+   
+
 }
 
 .job-title-top{
     background:  #FFF;
+    margin-bottom: 120px;
+    display: flex;
+    width: 264px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+
+   
+   
+
        
 }
 
@@ -217,6 +359,19 @@ flex-shrink: 0;
     line-height: 1.11;
     letter-spacing:0.02em;
     text-transform: capitalize;
+    padding-top: 120px;
+    padding-bottom: 72px;
+}
+
+
+.team-cards{
+    display: flex;
+    column-gap: 24px;
+    margin-left: 156px ;
+    margin-right: 156px;
+    width: 264px;
+  
+    
 }
 
 .top-text{
@@ -228,7 +383,11 @@ flex-shrink: 0;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02;
-     text-transform: capitalize;
+    text-align: center; 
+    margin-top: 120px;
+    margin-left: 611px;
+    margin-right: 611px;
+    margin-bottom: 72px;
 }
 
 
@@ -241,6 +400,38 @@ flex-shrink: 0;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
+
+
+.presents-cards{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    margin-left: 156px;
+        margin-right: 156px;
+        margin-bottom: 120px;
+        width: 1128px;
+    
+     
+    
+}
+.examples{
+   
+    
+    
+   
+    }
+
+
+
+.presents-cards-item {
+    width: 360px;
+  
+
+
+}
+    
+
 
 .secondary-text {
     color: SLATE, #434455;
@@ -286,7 +477,9 @@ flex-shrink: 0;
 }
 
 .last-page{
-background:  #2E2F42;
+  background:  #2E2F42;
+  height: 312px;
+    
 }
 
 .last-page-text{
@@ -297,6 +490,7 @@ background:  #2E2F42;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    
 }
 
 .logo-title-fin{
@@ -307,5 +501,13 @@ background:  #2E2F42;
     font-weight: 700;
     line-height: 1.16;
     letter-spacing: 0.03;
-    text-transform: uppercase;
+    
+}
+
+.logo-link, .logo-title-fin{
+   margin-top: 101.5px;
+    margin-bottom: 17.5px;
+  
+    
+    
 }
