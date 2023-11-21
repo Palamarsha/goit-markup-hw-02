@@ -181,7 +181,7 @@ img{
 
 .main-page{
     background:  #2E2F42;
-   
+   width: 1440px;
     height: 600px;
     padding-bottom: 60px;
   
@@ -205,16 +205,10 @@ img{
     margin-left: 472px;
     padding-top: 188px;
   
-  
 }
 
 
- .main-button .text {
-     width: 105px;
-     height: 24px;
-     
-
- }
+ 
 
 .main-button {
 
@@ -226,8 +220,15 @@ img{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    padding-top: 16px;
-        padding-bottom: 16px;
+    padding: 16px 32px 16px 32px;
+    margin: 48px 635px 188px 636px;
+    min-width: 169px;
+    height: 56px;
+    display: block;
+    border: none;
+    border-radius: 4px;
+
+    /* padding-bottom: 16px;
         padding-left: 32px;
         padding-right: 32px;
         margin-top: 48px;
@@ -235,7 +236,7 @@ img{
         margin-left: 636px;
         display: flex;
         align-items: flex-start;
-        column-gap: 10px;
+        column-gap: 10px; */
        
  
 
@@ -485,6 +486,7 @@ flex-shrink: 0;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: flex;
 }
 
 .last-page{
