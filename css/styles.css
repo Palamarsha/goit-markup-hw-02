@@ -40,9 +40,10 @@ img{
 }
 
 
-.head-navigation{
+.head-page-container{
     display: flex;
     align-items: center;
+    width: 1158px;
 }
 
 
@@ -63,13 +64,18 @@ img{
     justify-content: space-between;
     width: 1440px;
     align-items: center;
-  border-bottom: 1px solid #e7e9fc;
+ 
+  
 
 
 }
 
 .head-page{
-    border-bottom: 1px solid #e7e9fc;
+ display: flex;
+ width: 1440px;
+ border-bottom: 1px solid #e7e9fc
+
+   
 }
 
 
@@ -159,6 +165,7 @@ img{
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: flex;
 }
 
 .menu-contact-link:hover,
@@ -508,5 +515,7 @@ flex-shrink: 0;
     
 }
 
-
+.head-navigation{
+    display: flex;
+    align-items: center;
 }
