@@ -64,10 +64,13 @@ img{
     justify-content: space-between;
     width: 1440px;
     align-items: center;
- 
-  
+
+}
 
 
+.conteiner{
+    width: 1158px;
+    padding: 0 15px 0 15px;
 }
 
 .head-page{
