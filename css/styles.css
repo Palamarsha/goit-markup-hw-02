@@ -260,10 +260,15 @@ padding-bottom: 188px;
   }
 
 
+  .advantages-container{
+    padding: 120px 0 120px;
+
+  }
+
  .top-advantages{
     display: flex;
    padding-top: 60px;
-   column-gap: 24px;
+   gap: 24px;
    margin-left: 156px;
    margin-right: 156px;
    margin-bottom: 120px;
@@ -281,6 +286,7 @@ padding-bottom: 188px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing:0.02em;
+    margin-bottom: 8px;
    
 }
 
