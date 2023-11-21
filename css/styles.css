@@ -52,7 +52,7 @@ img{
 }
 
 
-.head-page {
+.head-page-container {
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -63,9 +63,13 @@ img{
     justify-content: space-between;
     width: 1440px;
     align-items: center;
-   
+  border-bottom: 1px solid #e7e9fc;
 
 
+}
+
+.head-page{
+    border-bottom: 1px solid #e7e9fc;
 }
 
 
