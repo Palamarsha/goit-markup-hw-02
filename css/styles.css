@@ -73,7 +73,7 @@ img{
 
 }
 
-.conteiner {
+.container {
     width: 1158px;
     padding: 0 15px 0 15px;
 } 
@@ -188,7 +188,7 @@ img{
 
 }
 
-.main-page-conteiner{
+.main-page-container{
 padding-top: 188px;
 padding-bottom: 188px;
     
@@ -401,18 +401,18 @@ flex-shrink: 0;
     letter-spacing: 0.02em;
 }
 
-
-.presents-cards{
+/* .presents-cards {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
     margin-left: 156px;
-        margin-right: 156px;
-        margin-bottom: 120px;
-        width: 1128px;
-    
-     
+    margin-right: 156px;
+    margin-bottom: 120px;
+    width: 1128px;
+
+} */
+
 
  .presents-cards-item {
     width: 360px;
