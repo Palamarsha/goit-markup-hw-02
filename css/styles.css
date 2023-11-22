@@ -51,12 +51,15 @@ img{
     letter-spacing: 0.02em;
     gap: 40px;
     display: flex;
+    align-items:center;
+    text-align: center;
 }
 
 
 .head-navigation {
     display: flex;
     align-items: center;
+    width: 1128px;
 }
 
 
@@ -69,7 +72,9 @@ img{
     padding-bottom: 24px;
     justify-content: space-between;
     align-items: center;
-    width: 1128px;
+    width: 1158px;
+    padding-right: 15px;
+    padding-left: 15px;
 
 }
 
@@ -168,6 +173,7 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     display: flex;
+    padding: 24px 0 24px;
 }
 
 .menu-contact-link:hover,
@@ -474,6 +480,7 @@ flex-shrink: 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
     display: flex;
+    
 }
 
 .last-page{
@@ -504,6 +511,7 @@ flex-shrink: 0;
     
 }
 
-.menu-contact-item{
+.menu-contact-item .second{
+   width: 151px; 
     
 }
