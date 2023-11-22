@@ -292,9 +292,11 @@ align-items: center;
 
   }
   .advantages-container{
+  
     padding: 0 15px 0 15px;
     width: 1158px; 
     align-items: center;
+   
    
   }
 
@@ -442,9 +444,10 @@ align-items: center;
     letter-spacing: 0.02;
     text-align: center; 
     margin-top: 120px;
-    margin-left: 611px;
-    margin-right: 611px;
     margin-bottom: 72px;
+    display: inline-block;
+    justify-content: center;
+    margin-left: 611px;
 }
 
 
@@ -478,6 +481,13 @@ align-items: center;
 
 
 }
+
+
+.examples-container{
+display: inline-block;
+justify-content: center;
+}
+
 
 
 .category{
@@ -534,6 +544,7 @@ align-items: center;
 .last-page{
   background:  #2E2F42;
   height: 312px;
+ padding: 100px 0 100px;
     
 }
 
@@ -545,6 +556,7 @@ align-items: center;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px
     
 }
 
@@ -556,6 +568,8 @@ align-items: center;
     font-weight: 700;
     line-height: 1.16;
     letter-spacing: 0.03;
+    display: inline-block;
+    margin-bottom: 16px;
     
 }
 
