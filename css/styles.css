@@ -200,14 +200,15 @@ img{
     background:  #2E2F42;
    width: 1440px;
     height: 600px;
+    padding-top: 188px;
+    padding-bottom: 188px;
     
     
 
 }
 
 .main-page-container{
-padding-top: 188px;
-padding-bottom: 188px;
+
 width: 1158px;
 display: inline-block;
 align-items: center;
@@ -282,8 +283,16 @@ align-items: center;
   }
 
 
+
+  .advantages{
+    padding-top: 120px;
+    padding-bottom: 120px;
+        
+
+
+  }
   .advantages-container{
-    padding: 120px 15px 120px 15px;
+    padding: 0 15px 0 15px;
     width: 1158px; 
     align-items: center;
    
