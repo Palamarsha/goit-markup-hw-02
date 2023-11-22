@@ -53,7 +53,7 @@ img{
     column-gap: 40px;
     display: flex;
     align-items:center;
-    text-align: center;
+   
 }
 
 
@@ -202,6 +202,9 @@ img{
 .main-page-container{
 padding-top: 188px;
 padding-bottom: 188px;
+width: 1158px;
+
+
     
 
 
@@ -248,7 +251,7 @@ padding-bottom: 188px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     background: #4D5AE5;
-    margin: 48px 635px 188px 636px;
+    margin: 48px 635px 0 636px;
     min-width: 169px;
     height: 56px;
     display: block;
@@ -271,11 +274,10 @@ padding-bottom: 188px;
   }
 
 
-  .advantages .container{
-    padding: 120px 0 120px;
-    width: 1440px;
-
-
+  .advantages-container{
+    padding: 120px 15px 120px 15px;
+    width: 1158px; 
+    align-items: center;
   }
 
  .top-advantages{
