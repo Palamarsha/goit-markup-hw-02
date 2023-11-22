@@ -59,7 +59,7 @@ img{
 }
 
 
-.head-navigation {
+.head-navigation-container {
     display: flex;
     align-items: center;
     width: 1128px;
@@ -208,6 +208,8 @@ img{
 padding-top: 188px;
 padding-bottom: 188px;
 width: 1158px;
+display: inline-block;
+align-items: center;
 
 
     
@@ -346,8 +348,6 @@ flex-shrink: 0;
     letter-spacing: 0.02em;
     margin-top: 32px;
 }
-
-
 
 
 .job-title {
@@ -522,7 +522,7 @@ flex-shrink: 0;
     
 }
 
-.menu-contact-item .second{
-   width: 151px; 
+.menu-contact-link {
+   display: flex;
     
 }
